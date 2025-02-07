@@ -1,2 +1,2 @@
-# 3-tier-vpc-s3-terraform
+# 3-Tier VPC with S3 Endpoint Architecture on AWS using Terraform 
  
