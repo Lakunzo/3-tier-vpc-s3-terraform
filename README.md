@@ -36,13 +36,18 @@ To deploy this architecture
 3. Initialize Terraform backend
    ```
    terraform init
-4. Run the terraform plan to view the resources that will be created
+4. Validate the Terraform configuration
+   ```
+   terraform validate
+5. Run the terraform plan to view the resources that will be created
    ```
    terraform plan
-5. Run terraform apply to create the needed resources
+6. Run terraform apply to create the needed resources
    ```
    terraform apply
-
+7. Destroy all resources to clean up the environment
+   ```
+   terraform destroy
 ## Output
 If this runs successfully your VPC should look similar to this
 ![Output Diagram](https://i.postimg.cc/9QDMVX9D/Screenshot-2025-02-07-131338.png)
