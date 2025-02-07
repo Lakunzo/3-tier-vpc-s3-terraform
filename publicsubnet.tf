@@ -1,6 +1,3 @@
-
-
-
 resource "aws_subnet" "publicsubnet1" {
   vpc_id = aws_vpc.mainvpc.id
   availability_zone = data.aws_availability_zones.available.names[0]
