@@ -43,6 +43,6 @@ To deploy this architecture
    ```
    terraform apply
 
-   ## Output
-   If this runs successfully your VPC should look similar to this
-   ![Output Diagram](https://i.postimg.cc/9QDMVX9D/Screenshot-2025-02-07-131338.png)
+## Output
+If this runs successfully your VPC should look similar to this
+![Output Diagram](https://i.postimg.cc/9QDMVX9D/Screenshot-2025-02-07-131338.png)
