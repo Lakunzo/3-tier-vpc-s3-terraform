@@ -30,6 +30,16 @@ The Terraform configuration for this project is categorized by resources needed 
 ## Deployment
 To deploy this architecture 
 1. Clone this repository
-2. ```
-   bash
-   git clone 
+    ```
+   git clone https://github.com/Lakunzo/3-tier-vpc-s3-terraform.git
+
+2. Make changes to the prodvar.tf file to include your AWS access key and secret key. If necessary, make changes to the public and private subnets CIDR
+3. Initialize Terraform backend
+   ```
+   terraform init
+4. Run the terraform plan to view the resources that will be created
+   ```
+   terraform plan
+5. Run terraform apply to create the needed resources
+   ```
+   terraform apply
