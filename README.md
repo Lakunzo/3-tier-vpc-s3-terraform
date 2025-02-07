@@ -17,3 +17,13 @@ The private subnets has a total of 4 subnets, 2 each in the Availabiity Zones us
 
 ## VPC S3 Endpoint
 This allows you to access your S3 buckets without using the internet or NAT gateway. 
+
+## Terraform Configuration
+The Terraform configuration for this project is categorized by resources needed to create the VPC infrastructure. These resources are:
+* Virtual Private Cloud
+* Public and Private Subnets with AZs
+* Public and Private Routes
+* NAT and Internet gateways
+* Security Groups
+* S3 Endpoint
+
