@@ -5,4 +5,6 @@ This project is a Terraform solution that creates a 3 tier AWS virtual private c
 * Public Subnet Zone A
 * Private Subnet Zone B
 * Private Subnet Zone C
-These across two availabiity zones in the US-EAST-1 region. 
+These across two availabiity zones in the US-EAST-1 region. 2
+
+![Architectural Diagram](https://i.postimg.cc/TwqfsnnX/3-tier.webp)
