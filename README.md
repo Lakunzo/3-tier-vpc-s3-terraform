@@ -27,3 +27,9 @@ The Terraform configuration for this project is categorized by resources needed 
 * Security Groups
 * S3 Endpoint
 
+## Deployment
+To deploy this architecture 
+1. Clone this repository
+2. ```
+   bash
+   git clone 
