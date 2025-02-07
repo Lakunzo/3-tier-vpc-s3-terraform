@@ -10,4 +10,10 @@ These across two availabiity zones in the US-EAST-1 region.
 ![Architectural Diagram](https://i.postimg.cc/Bn6jLTz6/3-tier-vpc-drawio.png)
 
 ## Public Subnet
-The Public Subnet consists of 2 subnets in the Availability Zones us-east-1a and us-east1b. They are connected to a public route which connects to the internet gateway, thereby having access to and from igw into the subnet. The resources deployed in these subnets will be internet facing typically web applications that can accept user input. 
+The Public Subnet consists of 2 subnets in the Availability Zones us-east-1a and us-east1b. They are connected to a public route which connects to the internet gateway, thereby having access to and from the igw into the subnet. The resources deployed in these subnets will be internet facing typically web applications that can accept user input. 
+
+## Private Subnets
+The private subnets has a total of 4 subnets, 2 each in the Availabiity Zones us-east-1a and us-east-1b. They are connected to a private route that uses a NAT gateway to get to the internet. The NAT gateway is assigned an elastic IP through which resources deployed in the subnet can reach the internet. Using the NAT gateway prevents direct access to these resources from the internet. Resources deployed usually deployed in these subnets are application and database resources.
+
+## VPC S3 Endpoint
+This allows you to access your S3 buckets without using the internet or NAT gateway. 
