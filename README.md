@@ -46,3 +46,11 @@ To deploy this architecture
 ## Output
 If this runs successfully your VPC should look similar to this
 ![Output Diagram](https://i.postimg.cc/9QDMVX9D/Screenshot-2025-02-07-131338.png)
+
+## Future Enhancement
+* Deploy EC2 instances in the public subnet and first private subnet
+* Apply autoscaling groups to the deployment
+* Deploy Database instances in the second private subnet
+* Deploy a read-replica database in the us-east-1b private subnet
+* Create an S3 bucket that can be accessed by the EC2 instances in the first private subnet
+* Apply security features including ACLs to ensure the public subnet can't reach the second private subnet 
